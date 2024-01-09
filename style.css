@@ -1,0 +1,145 @@
+.sect{
+    background-color: #ccffff;
+}
+.sect hr{
+    color: #d3d3dc;
+    width: 115%;
+}
+.reseaux {
+    margin-left: 3%;
+    padding: 2%;
+}
+.menu{
+    justify-content: left;
+    margin-left: -10%;
+}
+.sect2{
+    background-color: #ccffff;
+}
+header {
+    border-top: 0.05em solid;
+}
+body{
+    margin:0%;
+    padding:0%;
+}
+.logo{
+
+    width: 75%;
+    height: 75%;
+}
+#logo1{
+    position: relative ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav {
+    background-color: #9a99ff;
+    display: flex;
+    text-align: wrap;
+    display: grid;
+    justify-content: left;
+}
+nav img{
+    padding:5%;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    text-align: left;
+    margin-left: 3vh;
+    justify-content: center;
+    margin-right: 8vh;
+}
+li {
+    justify-content: center;
+    border-color: #d2d2dd;
+    padding: 1%;
+    color:black;
+}
+.images{
+    border-top: 0.05em solid;
+    border-bottom: 0.05em solid;
+    padding: 10%;
+}
+.ptgris {
+    transform: rotate(90deg);
+    justify-content: center;
+    margin-left: 3vh;
+}
+.case{
+    background-color: #9a99ff;
+    color: white;
+    display: flex;
+    padding: 3%;
+}
+.red{
+    color: red;
+}
+.corps{
+    display: grid;
+    padding: 5%;
+}
+section{
+    border-bottom: 0.05em solid;
+}
+.flag{
+    padding: 1%;
+    border: 1px solid;
+}
+.paragraphe{
+    padding: 3%;
+}
+.boussole{
+    display: flex;
+}
+.boussole img{
+    object-fit: contain;
+}
+.carte{
+    display: flex;
+}
+.carte img{
+    object-fit: contain;
+}
+.velo{
+    display: flex;
+}
+.velo img{
+    object-fit: contain;
+}
+.WhyUs{
+    padding: 5%;
+}
+.travel{
+    padding: 5%;
+}
+button{
+    color:white;
+    background-color: #81ac6a;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+footer {
+    padding: 6%;
+    background-color: #9a99ff;
+}
+@media (min-width: 768px) {
+
+    .menu{
+        display: flex;
+    }
+    .menu hr{
+        visibility: hidden;
+    }
+    
+    nav{
+        padding: 5%;
+    }
+
+}
