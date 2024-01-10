@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir sans-serif;
+}
 .sect{
     background-color: #ccffff;
 }
@@ -11,8 +16,7 @@
 }
 .menu{
     justify-content: left;
-    margin-left: -10%;
-}
+} 
 .sect2{
     background-color: #ccffff;
 }
@@ -37,9 +41,8 @@ img{
 }
 nav {
     background-color: #9a99ff;
-    display: flex;
-    text-align: wrap;
     display: grid;
+    text-align: wrap;
     justify-content: left;
 }
 nav img{
@@ -88,8 +91,12 @@ section{
     border-bottom: 0.05em solid;
 }
 .flag{
-    padding: 1%;
+    margin: 1%;
+    padding: auto;
     border: 1px solid;
+}
+.flag img{
+    object-fit:cover;
 }
 .paragraphe{
     padding: 3%;
@@ -129,6 +136,7 @@ footer {
     padding: 6%;
     background-color: #9a99ff;
 }
+
 @media (min-width: 768px) {
 
     .menu{
@@ -137,9 +145,27 @@ footer {
     .menu hr{
         visibility: hidden;
     }
-    
+
     nav{
         padding: 5%;
+        display: grid;
     }
-
+    .corps1{
+        display: flex;
+    }
+    article{
+        padding: 1%;
+    }
+    .flags{
+        display: flex;
+    }
+    .AboutUs{
+        width:110%;
+    }
+    .US{
+        display: flex;
+    }
+    .WhyUs{
+        margin-top: -4%;
+    }
 }
