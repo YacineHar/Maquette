@@ -37,7 +37,7 @@ body{
 }
 img{
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 nav {
     background-color: #9a99ff;
@@ -103,18 +103,21 @@ section{
 }
 .boussole{
     display: flex;
+    padding: 2%;
 }
 .boussole img{
     object-fit: contain;
 }
 .carte{
     display: flex;
+    padding: 2%;
 }
 .carte img{
     object-fit: contain;
 }
 .velo{
     display: flex;
+    padding: 2%;
 }
 .velo img{
     object-fit: contain;
@@ -137,8 +140,12 @@ footer {
     background-color: #9a99ff;
 }
 
-@media (min-width: 768px) {
-
+@media (min-width: 768px) 
+{
+    header {
+        border-top: 0.1em solid;
+        border-bottom: 0.1em solid;
+    }
     .menu{
         display: flex;
     }
@@ -147,7 +154,7 @@ footer {
     }
 
     nav{
-        padding: 5%;
+        padding: 4%;
         display: grid;
     }
     .corps1{
@@ -164,8 +171,61 @@ footer {
     }
     .US{
         display: flex;
+        padding: 5%;
     }
     .WhyUs{
         margin-top: -4%;
+    }
+    footer{
+        border-top: 0.05em solid;
+    }
+    
+}
+@media (min-width: 1024px) 
+{
+    .reseaux{
+        margin-left: 15%;
+    }
+    .logo{
+        margin-left: 12%;
+    }
+    .head{
+        display: flex;
+        padding: 1%;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .menu{
+        margin-top: 8%;
+        margin-right: 18%;
+    }
+    .images{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .corps{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .corps1{
+        padding-bottom: 10%;
+    }
+    hr{
+        margin: 1%;
+    }
+    .US{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .travel{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    footer p{
+        padding-right: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
