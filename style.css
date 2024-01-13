@@ -22,6 +22,7 @@
 }
 header {
     border-top: 0.05em solid;
+    border-bottom: 0.05em solid;
 }
 body{
     margin:0%;
@@ -65,8 +66,6 @@ li {
     color:black;
 }
 .images{
-    border-top: 0.05em solid;
-    border-bottom: 0.05em solid;
     padding: 10%;
 }
 .ptgris {
@@ -87,8 +86,11 @@ li {
     display: grid;
     padding: 5%;
 }
-section{
+.sect{
     border-bottom: 0.05em solid;
+}
+.sect2{
+    border-top: 0.05em solid;
 }
 .flag{
     margin: 1%;
@@ -201,6 +203,9 @@ footer {
         margin-top: 8%;
         margin-right: 18%;
     }
+    .menu li{
+        margin-right: 3%;
+    }
     .images{
         margin-left: 5%;
         margin-right: 5%;
@@ -224,8 +229,15 @@ footer {
         margin-right: 5%;
     }
     footer p{
-        padding-right: 5%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: -5%;
+    }
+    footer a{
+        padding-right: 4%;
+    }
+    .copy{
+        margin-top: 5%;
+        margin-bottom: -5%;
     }
 }
