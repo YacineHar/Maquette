@@ -16,7 +16,36 @@
 }
 .menu{
     justify-content: left;
-} 
+}
+li >{
+    transform: rotate(90deg);
+}
+.deroulant{
+    z-index: 1000;
+}
+.menu li {
+    position: relative;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #cccccc;
+    padding: 2%;
+    margin-left: 40%;
+}
+.submenu li {
+    display: block;
+    padding: 8px;
+}
+.submenu li:hover {
+    background-color: #f5f5f5;
+}
+.submenu a:hover{
+    color: #d53a32;
+}
+.deroulant.open .submenu {
+    display: block;
+}
 .sect2{
     background-color: #ccffff;
 }
